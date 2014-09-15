@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>CrystalReports2008Runtime</id>
+    <version>12.4</version>
+    <title>Crystal Reports 2008 Runtime</title>
+    <authors>Microsoft</authors>
+    <owners>Peter Gill</owners>
+    <projectUrl>http://scn.sap.com/docs/DOC-27917</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Crystal Reports is a business intelligence application, currently marketed to small businesses by SAP SE. It is used to design and generate reports from a wide range of data sources.</description>
+    <summary>Crystal Reports 2008 Runtime
+
+      Crystal Reports allows users to graphically design data connection(s) and report layout.</summary>
+    <releaseNotes />
+    <tags>Crystal Reports SAP CrystalReports .NET</tags>
+  </metadata>
+</package>
