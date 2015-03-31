@@ -6,7 +6,7 @@ $package = 'CrystalReports2008Runtime'
 
 $packageName = $package;
 $silentArgs = '/quiet';
-$url = 'https://smpdl.sap-ag.de/~sapidp/012002523100008782532011E/cr2008sp4_redist.zip';
+$url = 'https://smpdl.sap-ag.de/~sapidp/012002523100004495572015D/CRREDIST07_0-10007442.ZIP';
 
 
 try {
@@ -15,8 +15,8 @@ try {
 
   $chocTempDir = Join-Path $env:TEMP "chocolatey"
   $tempDir = Join-Path $chocTempDir "$packageName"
-  $setupMsi = "CRRuntime_12_4_mlb.msi"
-  $zipFile = "cr2008sp4_redist.zip"
+  $setupMsi = "CRRuntime_12_7_mlb.msi"
+  $zipFile = "cr2008sp7_redist.zip"
   
   $tempDownloadFolder 
   if (![System.IO.Directory]::Exists($tempDir)) {[System.IO.Directory]::CreateDirectory($tempDir)}
